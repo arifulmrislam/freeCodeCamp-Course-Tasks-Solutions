@@ -1,15 +1,19 @@
 body {
     /* background-color: burlywood; */
+    font-family: sans-serif;
 }
 #menu {
     width: 300px;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px 20px 20px 20px;
+    max-width: 500px;
 }
 h1, h2, p {
     text-align: center;
     background-image: url();
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .flavor {
     text-align: left;
@@ -24,4 +28,22 @@ h1, h2, p {
 .item p {
     display: inline-block;
     width: 50%;
+}
+
+/* Dessert part styles */
+.flavor, .dessert {
+    text-align: left;
+    width: 50%;
+}
+
+
+.established {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
 }
